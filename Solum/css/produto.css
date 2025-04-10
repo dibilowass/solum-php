@@ -1,0 +1,168 @@
+.container-display-produto{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    height: 800px;
+    display: flex;
+}
+
+.container-display-produto-esquerda{
+    background-color: white;
+    flex:1;
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-display-produto-loja{
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+   
+    display: flex;
+}
+
+/* 
+@media (max-width: 468px) {
+    .container-display-produto-esquerda img {
+      width: fit-content;
+      height: fit-content;
+    }
+  
+  
+  }
+   */
+  /* @media (max-width: 480px) {
+    .titulo-secao {
+      font-size: 6vw;
+      color: #304269;
+    }
+  
+  
+  }
+   */
+  
+
+.container-display-produto-direita{
+    background-color: white;
+    flex:2;
+    height: 50%;
+    width: 100%;
+}
+
+
+
+
+.display-nome-produto{
+    
+   color:#000000;
+   font-size: 5vh;
+    padding: 1%;
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  margin-left: 2%;
+}
+
+.display-produto-preco{
+
+    color: #000000;
+    font-size: 4vh;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  padding: 1%;
+  margin-left: 2%;
+}
+
+.display-produto-info-preco{
+    color: #999999;
+    font-size: 2vh;
+    font-style: normal;
+  font-weight: 200;
+  font-optical-sizing: auto;
+  padding: 1%;
+  margin-left: 2%;
+}
+
+.display-produto-avaliacao{
+    color: #ff9900;
+    font-size: 3vh;
+    font-style: normal;
+  font-weight: 200;
+  font-optical-sizing: auto;
+  padding-left: 1%;
+  margin-left: 2%;
+}
+
+.display-produto-comprar{
+    background-color: #ff6b00;
+   color:#000000;
+   font-size: 4vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  
+  border: 2px solid #ff6b00;
+
+}
+
+
+.display-produto-comprar:hover{
+    background-color: #ffffff;
+   color:#ff6b00;
+   font-size: 4vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  transition: 0.2s;
+  border: 2px solid #ff6b00;
+
+}
+
+.display-produto-adicionar-carrinho{
+    background-color: #304269;
+   color:#ffffff;
+   font-size: 4vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  border: 1px solid #304269;
+
+}
+
+
+.display-produto-adicionar-carrinho:hover{
+    background-color: #ffffff;
+   color:#304269;
+   font-size: 4vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  border: 1px solid #304269;
+  transition: 0.2s;
+}
+
