@@ -87,16 +87,17 @@
 
     align-items: top;
     justify-content: center;
+    margin-bottom: 30px;
 } 
 
-.navlogo{
+/* .navlogo{
     /* font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   color:#ffffff; */
  
-}
+
 
 
 .navlinkcategoria {
@@ -577,3 +578,5 @@ font-optical-sizing: auto;
       width: 40%;
   }
 }
+
+

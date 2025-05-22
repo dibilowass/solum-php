@@ -126,3 +126,4 @@ font-weight: 600;
   .item-card.active {
     transform: scale(1); /* Quando o card está ativo, aumenta de tamanho */
   }
+  

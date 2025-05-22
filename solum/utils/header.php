@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/felly.css">
     <link rel="stylesheet" href="css/loja.css">
     <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 
 <!-- montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

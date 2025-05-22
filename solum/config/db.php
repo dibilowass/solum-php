@@ -2,7 +2,7 @@
 
 class Database{
     private $host = 'br612.hostgator.com.br';
-    private $db_name = 'hubsap45_bd_solum';
+    private $db_name = 'hubsap45_bd_tcc_2025_solum';
     private $username = 'hubsap45_usrsolum';
     private $password = '$0!14@stRik3';
     public $conn;
